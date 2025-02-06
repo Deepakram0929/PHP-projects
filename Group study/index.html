@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="icon" type="image" href="images/th.jpeg" />
+    <!-- style.css linking here -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font family linking here -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome.min.css linking here -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section strt -->
+    <section class="header">
+      <!-- nav strt -->
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" class="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="schedules.html">SCHEDULES</a>
+            </li>
+            <li>
+              <a href="chat/index.html">CONNECT</a>
+            </li>
+            <li>
+              <a href="chat/index.html">RESOURCES</a>
+            </li>
+            <li>
+              <a href="Contact.html">ABOUT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <!-- nav end -->
+      <div class="text-box">
+        <h2>Your Best Place To Study and Connect with the world</h2>
+        <p>
+          We believe studying is not just and individual endeavour but a
+          collaborative journey fostering shared knowledge.
+        </p>
+        <a href="" class="hero-btn">Study together now</a>
+      </div>
+    </section>
+    <!-- header section end -->
+    <!-- course section strt -->
+    <section class="course">
+      <h1>Rediscover Studying</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Create your perfect environment</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
+            atque voluptate iusto veritatis est modi consequatur elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Focus room</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
+            atque voluptate iusto veritatis est modi consequatur elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Resources sharing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
+            atque voluptate iusto veritatis est modi consequatur elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- course section end -->
+    <!-- campus section strt -->
+    <section class="campus">
+      <h1>Study Groups</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/comp.jpg" alt="" />
+          <div class="layer">
+            <h3>COMPUTER SCIENCE</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/electr.jpg" alt="" />
+          <div class="layer">
+            <h3>ELECTRONICS</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/civil.jpeg" alt="" />
+          <div class="layer">
+            <h3>civil</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- campus section end -->
+    <!-- facilities section strt -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>World Class resources</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/calm.jpg" alt="" />
+          <h3>Calm Learnin environment</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Community events</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      
+    </section>
+    <!-- facilities section end -->
+
+    <!-- Call to Action section strt -->
+    <section class="cta">
+      <h1>
+        Enroll For Our Group studying<br />
+        Classes Anywhere Form The World
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+    <!-- Call to Action section end -->
+    <!-- footer strt -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Ut
+        reprehenderit labore eligendi tenetur, sapiente ab doloremque id
+        provident dignissimos <br />
+        ipsa perspiciatis voluptates sunt facilis minus omnis illo ea maxime
+        nesciunt.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+    <!-- footer end -->
+    <!-- Javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
